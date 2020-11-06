@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activida2"
+    android:background="@drawable/image_fondo">
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_completo"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"/>
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_nacimiento"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"/>
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"/>
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:textSize="@dimen/tamaño_letra_for"
+        android:layout_marginTop="@dimen/espacio_top"/>
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_editar"
+        android:layout_marginTop="@dimen/espacio_top"/>
+
+
+</LinearLayout>
